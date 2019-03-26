@@ -1,0 +1,9 @@
+[alias]
+	prune=remote prune origin
+	pdr=remote prune origin --dry-run
+	dcs=diff --compact-summary
+	lgc=shortlog -s -n
+	lga=log --graph --oneline --all --decorate
+	lga2=log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+	lg1=log --pretty=oneline
+
